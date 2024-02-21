@@ -58,16 +58,56 @@ nombre = ['Juan', 'carlos', 'choro', 'laji']
 #Tupla ,tipo inmutable
 
 frutas = ('manzana', 'naranja', 'platano')
-print(frutas)
+# print(frutas)
 
-#saber largo de tupla
-print(len(frutas))
+# #saber largo de tupla
+# print(len(frutas))
 
-#acceder a elemento
-print(frutas[0])
+# #acceder a elemento
+# print(frutas[0])
 
-#navegacion inversa
-print(frutas[-1])
+# #navegacion inversa
+# print(frutas[-1])
 
-#acceder a un rango
-print(frutas[0:2])
+# #acceder a un rango
+# print(frutas[0:2])
+
+#recorrer elementos
+
+# for fruta in frutas:
+#     print(fruta, end=' ')
+
+#cambiar valor de tupla
+
+# frutas[0] = 'pera'
+
+# frutaLista = list(frutas)
+# frutaLista[0] = 'Pera'
+# frutas = tuple(frutaLista)
+# print('\n',frutas)
+
+# #eliminar tupla
+
+# del frutas
+# print(frutas)
+
+#Dada la siguiente tupla, crear lista que solo incluya
+#los numeros menores a 5
+
+tupla = (13, 1, 8, 3, 2, 5, 8)
+
+# tuplaLista = list(tupla)
+
+# for i in tuplaLista:
+#     if i < 5:
+#         print(i)
+
+#el mismo ejercicio
+        
+#definir lista        
+lista = []
+#filtrar elementos mejores a 5 de la tupla
+for elemento in tupla:
+    if elemento <5:
+        lista.append(elemento)
+print(lista)
