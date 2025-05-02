@@ -1,3 +1,6 @@
+
+print(f'hello world');
+
 cliente = 'Laura Martinez';
 dias = 5;
 tarifa = 1200.0;
@@ -8,6 +11,7 @@ print(f'Cliente: {cliente} ');
 print(f'Dias de estancia: {dias} ');
 print(f'Tarifa diaria: {tarifa} ' );
 print(f'Habitacion con vista al mar?: {vista_mar}');
+
 
 
 
