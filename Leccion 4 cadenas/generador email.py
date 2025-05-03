@@ -2,7 +2,7 @@ print(f'hello world');
 
 print(f'***Sistema de Generador de Emails***');
 
-nombre_usuario = 'Laura Martinez';
+nombre_usuario = 'Laura Martinez Soto';
 nombre_usuario_normalizado = nombre_usuario.replace(' ', '.').lower();
 
 print(f'Nombre de usuario: {nombre_usuario} ');
